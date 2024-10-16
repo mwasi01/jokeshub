@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Joke Sharing App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Class Joke App</h1>
+    </header>
+
+    <div class="joke-form">
+        <h2>Post a New Joke</h2>
+        <textarea id="jokeInput" placeholder="Write your joke here..."></textarea>
+        <button onclick="postJoke()">Post Joke</button>
+    </div>
+
+    <div class="jokes-container">
+        <h2>Jokes</h2>
+        <div id="jokesList">
+            <!-- Jokes will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Class Joke Sharing App</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
